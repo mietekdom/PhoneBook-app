@@ -38,14 +38,21 @@ namespace PhoneDict
                         var numberToSearch = Console.ReadLine();
 
                         phoneBook.DisplayContact(numberToSearch);
+                        break;
 
-                        break;
                     case "3":
+                        phoneBook.DisplayAllContacts();
                         break;
+
                     case "4":
+                        Console.WriteLine("Inset search phrase");
+                        var serachPhone = Console.ReadLine();
+                        phoneBook.DisplayMatchingContacts(serachPhone);
                         break;
+
                     case "x":
                         return;
+
                     default:
                         Console.WriteLine("Invalid operation, please write number between 1 to 4");
                         break;
