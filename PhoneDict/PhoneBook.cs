@@ -13,7 +13,6 @@ namespace PhoneDict
         {
             Contacts.Add(contact);
         }
-
         private void DisplayContactDetails(Contact contact)
         {
             Console.WriteLine($"Contact: {contact.Name}, {contact.Number}");
@@ -26,7 +25,6 @@ namespace PhoneDict
                 DisplayContactDetails(contact);
             }
         }
-
 
         public void DisplayContact(string number)
         {
