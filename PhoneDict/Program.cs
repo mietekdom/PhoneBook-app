@@ -57,6 +57,7 @@ namespace PhoneDict
                         Console.WriteLine("Invalid operation, please write number between 1 to 4");
                         break;
                 }
+
                 Console.WriteLine("Select operation");
                 userInput = Console.ReadLine();
             }
